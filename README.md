@@ -2,7 +2,8 @@
 
 DTW is implemented in both Matlab and C/MEX. The C/MEX function is very fast.
 
-The algorithm we use is the standard one from wiki: * http://en.wikipedia.org/wiki/Dynamic_time_warping
+The algorithm we use is the standard one from wiki:
+* http://en.wikipedia.org/wiki/Dynamic_time_warping
 
 There is a demo in the package. To use, just call:
 ```
