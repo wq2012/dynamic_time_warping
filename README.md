@@ -1,4 +1,4 @@
-# Dynamic Time Warping (DTW)
+# Dynamic Time Warping (DTW) [![View Dynamic Time Warping (DTW) on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/43156-dynamic-time-warping-dtw)
 
 DTW is implemented in both Matlab and C/MEX. The C/MEX function is very fast.
 
