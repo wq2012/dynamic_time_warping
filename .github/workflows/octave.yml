@@ -22,4 +22,5 @@ jobs:
         sudo apt-get install liboctave-dev
     - name: Run demo
       run: |
+        cd code
         octave demo_dtw.m
