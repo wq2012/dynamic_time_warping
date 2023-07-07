@@ -17,8 +17,8 @@ jobs:
     - uses: actions/checkout@v3
     - name: Install dependencies
       run: |
-        sudo apt install octave
-        sudo apt install liboctave-dev
+        sudo apt-get install octave
+        sudo apt-get install liboctave-dev
     - name: Run demo
       run: |
         octave demo_dtw.m
