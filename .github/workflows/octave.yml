@@ -1,0 +1,24 @@
+# This workflow will install Octave and run a demo
+
+name: Octave application
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Install dependencies
+      run: |
+        apt install octave
+        apt install liboctave-dev
+    - name: Run demo
+      run: |
+        octave demo_dtw.m
