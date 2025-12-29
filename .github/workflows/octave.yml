@@ -19,7 +19,11 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y octave octave-dev
+    - name: Run unit tests
+      run: |
+        cd code
+        octave --no-gui test_dtw.m
     - name: Run demo
       run: |
         cd code
-        octave demo_dtw.m
+        octave --no-gui demo_dtw.m
