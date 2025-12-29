@@ -17,6 +17,9 @@ A high-performance implementation of the Dynamic Time Warping (DTW) algorithm fo
 - [Performance](#performance)
 - [Citation](#citation)
 - [Contact](#contact)
+
+---
+
 ## Features
 
 - **Standard DTW**: Compute the optimal alignment between two sequences.
