@@ -15,8 +15,7 @@ A high-performance implementation of the Dynamic Time Warping (DTW) algorithm fo
 - [Usage](#usage)
 - [Running Demo & Tests](#running-demo--tests)
 - [Performance](#performance)
-- [Citation](#citation)
-- [Contact](#contact)
+- [Copyright and Citation](#copyright-and-citation)
 
 ---
 
@@ -84,15 +83,25 @@ test_dtw
 
 The C/MEX implementation is typically 10-50x faster than the native MATLAB implementation, especially for long sequences and multidimensional signals.
 
-## Citation
+## Copyright and Citation
 
-If you use this package in your research, please cite:
+```
+Copyright (C) 2012 Quan Wang <wangq10@rpi.edu>,
+Signal Analysis and Machine Perception Laboratory,
+Department of Electrical, Computer, and Systems Engineering,
+Rensselaer Polytechnic Institute, Troy, NY 12180, USA
+```
+
+This software was developed as part of the following research. If you use this software in your research, please cite:
 
 **Plain Text:**
-```
-Quan Wang. Exploiting Geometric and Spatial Constraints for Vision and Lighting Applications. Ph.D. dissertation, Rensselaer Polytechnic Institute, 2014.
-```
+
+> Quan Wang.
+Exploiting Geometric and Spatial Constraints for Vision and Lighting Applications.
+Ph.D. dissertation, Rensselaer Polytechnic Institute, 2014.
+
 **BibTeX:**
+
 ```bibtex
 @phdthesis{wang2014exploiting,
   title={Exploiting Geometric and Spatial Constraints for Vision and Lighting Applications},
@@ -101,13 +110,6 @@ Quan Wang. Exploiting Geometric and Spatial Constraints for Vision and Lighting 
   school={Rensselaer Polytechnic Institute},
 }
 ```
-
-## Contact
-
-**Quan Wang**  
-wangq10@rpi.edu  
-Signal Analysis and Machine Perception Laboratory  
-Rensselaer Polytechnic Institute
 
 ---
 
